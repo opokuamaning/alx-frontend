@@ -1,4 +1,4 @@
-/* Custom properties in root elements to use font-size css variables */
+/*  Custom margin, More styling for section-title */
 
 html {
   scroll-behavior: smooth;
@@ -15,6 +15,7 @@ html {
 
   --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
   --font-size-small: 1.2rem;
   --font-size-medium: 1.6rem;
   --font-size-large: 1.8rem;
@@ -29,11 +30,11 @@ html {
   --line-height-big: 1.8;
 
   --section-header-align: center;
-  
+
   --section-tagline-transform: uppercase;
 
   --section-title-margin: 0;
-  --section-title-color: var(var(--color-black));
+  --section-title-color: var(--color-black);
 }
 
 body {
@@ -71,13 +72,14 @@ a {
   text-align: var(--section-header-align);
 }
 
-.section-title{
-    font-family: var(--font-family-title);
-    font-size: var(--font-size-xx-large);
-    font-weight: var(--font-weight-bold);
-    margin: var(--section-title-margin);
-    color: var(--section-title-color);
+.section-title {
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-xx-large);
+  font-weight: var(--font-weight-bold);
+  margin: var(--section-title-margin);
+  color: var(--section-title-color);
 }
+
 .section-tagline {
   color: var(--color-primary);
   font-family: var(--font-family-title);
