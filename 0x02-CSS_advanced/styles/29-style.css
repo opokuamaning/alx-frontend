@@ -568,11 +568,11 @@ a:active {
   padding: 0.5rem 1rem;
 }
 
-.nav .nav-link:hover {
+.nav.nav-link:hover {
   color: var(--nav-item-link-hover);
 }
 
-.nav .nav-link::before{
+.nav.nav-link::before{
     content: "";
     position: absolute;
     top: 0;
