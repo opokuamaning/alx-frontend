@@ -1,4 +1,4 @@
-/* Styling and custom properties for the nav */
+/* Fixing the header and menu navigation bar */
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
@@ -572,19 +572,19 @@ a:active {
   color: var(--nav-item-link-hover);
 }
 
-.nav .nav-link::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: var(--color-white);
-  width: 0;
-  height: 0.2rem;
+.nav .nav-link::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    width: 0;
+    height: 20%;
 }
 
-.nav .nav-item:hover .nav-link::before {
-  background-color: var(--color-primary);
-  width: 100%;
+.nav .nav-item:hover .nav-link::before{
+    background-color: var(--color-primary);
+    width: 100%;
 }
 
 .header {
@@ -687,4 +687,16 @@ ul.row {
   display: block;
   padding-top: 1rem;
   color: var(--color-primary);
+}
+
+.card-work .card-outer{
+    position: relative;
+    overflow: hidden;
+}
+
+.card-work .card-image{
+    height: 30rem;
+    width: 100%;
+    object-fit: cover
+    ;
 }
