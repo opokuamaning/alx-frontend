@@ -714,6 +714,10 @@ ul.row {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+.card-testimonial .card-quote {
+  position: relative;
+}
+
 .card-testimonial .card-quote{
     content: '\201C';
     position: absolute;
